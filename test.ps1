@@ -1,6 +1,6 @@
-$val
+$input
 while(1){
-    while($val){
-    Write-Host " in Loop"
-    }
+    cls;
+    Write-Host $input
+    $input=Read-Host "Input:";
 }
