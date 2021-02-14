@@ -4,7 +4,7 @@
 [string]$global:v3_user_input;
 [boolean]$global:v3_isResolved = $True;
 [boolean]$global:v3_isRunning = $True;
-[boolean]$global:v3_inputCommands = $False;
+[boolean]$global:v3_inputCommands = $True;
 
 function init(){
     #Initializing Services
